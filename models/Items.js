@@ -4,9 +4,7 @@ var ItemsSchema = new mongoose.Schema({
     title: {type: String, default: ''},
     description: {type: String, default: ''},
     category: {
-        type: String,
-        unique: true,
-        default: 'uncategorized'
+        type: String
     },
     price: {type: Number, default: 0},
     images: Array,
